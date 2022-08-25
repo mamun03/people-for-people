@@ -188,6 +188,21 @@ form{
     border-top-left-radius: 5px;
     padding: 10px 40px 10px 10px;
 }
+.footer{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(252, 16, 63);
+}
+small{
+    color: white;
+    font-size: 10px;
+}
+
+footer{
+    background-color: rgb(44, 43, 43);
+    text-align: center;
+    padding: 30px 5px 5px 5px;
+}
 
 
 
