@@ -1,7 +1,6 @@
 h1{
     text-align: center;
-    color: rgb(251, 255, 8);
-    text-shadow: 1px 1px 1px black;
+    color: yellow;
     font-size: 70px;
     font-weight: 700;
 }
@@ -11,11 +10,11 @@ body{
 
 }
 .header-background{
-    background-image: url(images/donation12.png);
-    background-repeat: no-repeat;background-size: cover;
+    background-image: url(images/donation12-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px;
-    height: 100%;
-}
+ }
 #why-donate{
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
