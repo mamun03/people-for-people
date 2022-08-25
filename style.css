@@ -34,25 +34,25 @@ a{
     font-size: 50px;
     color: rgb(66, 65, 65);
     padding: 5% 20% 0% 20%;
-    text-align: center;
-}
+    text-align: center;}
+
 .why-donation{
     color: rgb(66, 65, 65);
     padding: 0% 20% 2% 20%;
     text-align: center;}
+
 .header-second{
     font-size: 25px;
     font-weight: 400;
-    text-align: center;
-}
+    text-align: center;}
+
 .amount{
     display: inline-block;
     width: 10%;
     padding: 15px 15px;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
-.box{
+.taka{
     height: 100px;
     margin: 0 auto;
     display: flex;
@@ -63,9 +63,9 @@ a{
     color: black;
     text-decoration: none;
     font-weight: normal;
-    border-radius: 5px;
-  }
-  .box200{
+    border-radius: 5px;}
+
+.taka200{
     height: 100px;
     margin: 0 auto;
     display: flex;
@@ -74,16 +74,16 @@ a{
     align-items: center;
     font-size: 30px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: lighter;
     border: solid 2px;
     border-color: rgb(253, 86, 86);
     border-radius: 5px;
     color: rgb(250, 81, 81);}
   
-    .input-taka{
+.input-taka{
     border: 0;
     outline: 0;
-    background: transparent;
+    background-color: rgb(252, 251, 251);
     border-bottom: 1px solid black;
     font-size: 20px;
     font-weight: 400;
@@ -93,7 +93,101 @@ a{
 
 
 }
-.donate-here{
+.buttonDonate{
     text-align: center;
-    padding: 3% 40% 10% 40%;
+}
+.button{
+    font-size: 20px;
+    background-color: rgb(250, 59, 59);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+    cursor: pointer;
+}    
+
+.header-3rd{
+    font-size: 50px;
+    color: rgb(66, 65, 65);
+    padding: 0% 20% 0% 20%;
+    text-align: center;}
+.plan-zone{
+margin:0% 10% 5% 10%;
+padding: 0% 2% 0% 2%;
+}
+.plan{
+    display: inline-block;
+    width: 25%;
+    padding: 30px;}
+
+.plan-items{
+    height: 250px;
+    width: 250px;
+    display: grid;
+    color: black;
+    padding: 10%;
+    border-radius: 5px;}
+    
+#plan1{
+    background-color: rgb(243, 230, 255);
+}
+#plan2{
+    background-color: rgb(222, 252, 252);
 } 
+#plan3{
+    background-color: rgb(253, 228, 233);
+}  
+h4{
+    font-size: 20px;}
+
+.plan-words{
+    font-size: 15px;
+font-weight: lighter;}
+.header-4th{
+    font-size: 50px;
+    color: rgb(66, 65, 65);
+    padding: 0% 20% 0% 20%;
+    text-align: center;}
+.ending{
+    text-align: center;
+}
+form{
+    
+    background: rgb(255, 234, 203);
+    background-size: 10px 20px;
+    height: 150px;
+    width: 500px;
+}
+.email-center{
+    padding: 12%;
+    }
+.email-form{
+    margin: 2% 30% 5% 30%}
+
+    .email-button{
+    font-size: 15px;
+    background-color: rgb(250, 80, 80);
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    padding: 10px 40px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;  
+}
+.input-email{
+    font-size: 15px;
+    border: none;
+    background-color: rgb(221, 219, 219);
+    color: rgb(80, 79, 79);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 40px 10px 10px;
+}
+
+
+
