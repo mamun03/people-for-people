@@ -7,7 +7,6 @@ h1{
 body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
-
 }
 .header-background{
     background-image: url(images/donation12-1.png);
@@ -188,11 +187,7 @@ form{
     border-top-left-radius: 5px;
     padding: 10px 40px 10px 10px;
 }
-.footer{
-    font-style: italic;
-    font-size: 25px;
-    color: rgb(252, 16, 63);
-}
+
 small{
     color: white;
     font-size: 10px;
@@ -203,6 +198,47 @@ footer{
     text-align: center;
     padding: 30px 5px 5px 5px;
 }
+.footer{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(252, 16, 63);
+}
+#tracking-zone{
+    font-size: 50px;
+    color: rgb(43, 42, 42);
+}
 
+.divider::after,
+.divider::before{
+  content: "------------------";
+  flex: 1;
+}
+.tracker{
+    font-size: 50px;
+    color: rgb(58, 58, 58);
+    padding: 0% 20% 0% 20%;
+    text-align: center;}
+.tracker-head{
+    text-align: center;
+    color: rgb(99, 57, 57);
+background-image: linear-gradient(to top, rgb(252, 252, 144), rgb(253, 253, 196));
+}
+.tracking{
+    display: inline-block;
+    width: 36%;
+    padding: 0% 5% 5% 5%;}
+    
+ 
+.tracking-items{
+    height: 250px;
+    width: 300px;
+    color: black;
+    padding: 30%;
+    border-radius: 5px;
+    background-color: rgb(195, 247, 144);
+    }
+.item-group{
+    display: flex;
 
+}
 
